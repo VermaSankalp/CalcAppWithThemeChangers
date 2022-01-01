@@ -1,0 +1,40 @@
+.mainCalcDiv {
+    background-color: hsl(222, 26%, 31%);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calcHeader {
+    padding-top: 1%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: [vlinestart] 50px [vline1] 350px [vline2] 100px [vline3] 50px [vlineend];
+}
+
+.calcHeader > h1 {
+    grid-column-start: vlinestart;
+    grid-column-end: vline1;
+}
+
+.calcHeader > h5 {
+    padding-top: 10px;
+    grid-column-start: vline2;
+    grid-column-end: vline3;
+}
+
+.mainSlider {
+    width: 40px;
+    margin: auto; 
+}
+
+@media screen and (max-width: 375px) {
+    .mainCalcDiv {
+        width: 375px;
+        height: 130vh;
+    }
+
+    .calcHeader {
+        grid-template-columns: [vlinestart] 30px [vline1] 150px [vline2] 100px [vline3] 30px [vlineend];
+    }
+}

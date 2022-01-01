@@ -1,0 +1,206 @@
+:root {
+    --main-button-color: hsl(30, 25%, 89%);
+    --main-button-shadow: hsl(28, 16%, 65%);
+    --blue-button-color: hsl(225, 21%, 49%);
+    --blue-button-shadow: hsl(224, 28%, 35%);
+    --del-button-color: hsl(6, 63%, 50%);
+    --del-button-shadow: hsl(6, 70%, 34%);
+}
+
+.inputGridDiv {
+    background-color: hsl(223, 31%, 20%);
+    margin: auto;
+    width: 550px;
+    height: 500px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 20px [vlineStart] 100px [vlineEnd]);
+    grid-template-rows: repeat(5, 20px [hlineStart] 70px [hlineEnd]);
+    border-radius: 10px;
+}
+
+.buttonStyle {
+    background-color: var(--main-button-color);
+    border-radius: 8px;
+    box-shadow: 0px 3px var(--main-button-shadow);
+    border-color: transparent;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+}
+
+.button0 {
+    grid-column-start: vlineStart 1;
+    grid-column-end: vlineEnd 1;
+    grid-row-start: hlineStart 1;
+    grid-row-end: hlineEnd 1;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button1 {
+    grid-column-start: vlineStart 2;
+    grid-column-end: vlineEnd 2;
+    grid-row-start: hlineStart 1;
+    grid-row-end: hlineEnd 1;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button2 {
+    grid-column-start: vlineStart 3;
+    grid-column-end: vlineEnd 3;
+    grid-row-start: hlineStart 1;
+    grid-row-end: hlineEnd 1;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button3 {
+    background-color: var(--blue-button-color);
+    color: white;
+    box-shadow: 0px 3px var(--blue-button-shadow);
+    grid-column-start: vlineStart 4;
+    grid-column-end: vlineEnd 4;
+    grid-row-start: hlineStart 1;
+    grid-row-end: hlineEnd 1;
+    font-size: large;
+}
+
+.button4 {
+    grid-column-start: vlineStart 1;
+    grid-column-end: vlineEnd 1;
+    grid-row-start: hlineStart 2;
+    grid-row-end: hlineEnd 2;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button5 {
+    grid-column-start: vlineStart 2;
+    grid-column-end: vlineEnd 2;
+    grid-row-start: hlineStart 2;
+    grid-row-end: hlineEnd 2;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button6 {
+    grid-column-start: vlineStart 3;
+    grid-column-end: vlineEnd 3;
+    grid-row-start: hlineStart 2;
+    grid-row-end: hlineEnd 2;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button7 {
+    grid-column-start: vlineStart 4;
+    grid-column-end: vlineEnd 4;
+    grid-row-start: hlineStart 2;
+    grid-row-end: hlineEnd 2;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button8 {
+    grid-column-start: vlineStart 1;
+    grid-column-end: vlineEnd 1;
+    grid-row-start: hlineStart 3;
+    grid-row-end: hlineEnd 3;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button9 {
+    grid-column-start: vlineStart 2;
+    grid-column-end: vlineEnd 2;
+    grid-row-start: hlineStart 3;
+    grid-row-end: hlineEnd 3;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button10 {
+    grid-column-start: vlineStart 3;
+    grid-column-end: vlineEnd 3;
+    grid-row-start: hlineStart 3;
+    grid-row-end: hlineEnd 3;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button11 {
+    grid-column-start: vlineStart 4;
+    grid-column-end: vlineEnd 4;
+    grid-row-start: hlineStart 3;
+    grid-row-end: hlineEnd 3;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button12 {
+    grid-column-start: vlineStart 1;
+    grid-column-end: vlineEnd 1;
+    grid-row-start: hlineStart 4;
+    grid-row-end: hlineEnd 4;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button13 {
+    grid-column-start: vlineStart 2;
+    grid-column-end: vlineEnd 2;
+    grid-row-start: hlineStart 4;
+    grid-row-end: hlineEnd 4;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button14 {
+    grid-column-start: vlineStart 3;
+    grid-column-end: vlineEnd 3;
+    grid-row-start: hlineStart 4;
+    grid-row-end: hlineEnd 4;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button15 {
+    grid-column-start: vlineStart 4;
+    grid-column-end: vlineEnd 4;
+    grid-row-start: hlineStart 4;
+    grid-row-end: hlineEnd 4;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+.button16 {
+    background-color: var(--blue-button-color);
+    color: white;
+    box-shadow: 0px 3px var(--blue-button-shadow);
+    grid-column-start: vlineStart 1;
+    grid-column-end: vlineEnd 2;
+    grid-row-start: hlineStart 5;
+    grid-row-end: hlineEnd 5;
+    font-size: large;
+}
+
+.button17 {
+    background-color: var(--del-button-color);
+    color: white;
+    box-shadow: 0px 3px var(--del-button-shadow);
+    grid-column-start: vlineStart 3;
+    grid-column-end: vlineEnd 4;
+    grid-row-start: hlineStart 5;
+    grid-row-end: hlineEnd 5;
+    font-size: large;
+}
+
+@media screen and (max-width: 375px) {
+    .inputGridDiv {
+        width: 350px;
+        grid-template-columns: repeat(4, 10px [vlineStart] 60px [vlineEnd]);
+    }
+}

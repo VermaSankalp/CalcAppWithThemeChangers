@@ -1,0 +1,24 @@
+.displayResultDiv {
+    background-color: hsl(223, 31%, 20%);
+    margin: auto;
+    width: 550px;
+    height: 100px;
+    justify-content: center;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.displayResultDiv h3 {
+    /* color: white; */
+    padding: 30px;
+    font-size: 32px;
+    font-family: Spartan;
+}
+
+@media screen and (max-width: 375px) {
+    .displayResultDiv {
+        width: 350px;
+    }
+}
